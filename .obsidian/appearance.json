@@ -1,0 +1,12 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ],
+  "showRibbon": false,
+  "interfaceFontFamily": "仓耳今楷05 W02,仓耳今楷05,仓耳今楷05 W01",
+  "textFontFamily": "仓耳今楷05 W02,仓耳今楷05,仓耳今楷05 W01",
+  "baseFontSize": 20,
+  "monospaceFontFamily": "Consolas-with-Yahei",
+  "theme": "obsidian"
+}
