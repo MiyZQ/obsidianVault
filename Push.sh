@@ -27,7 +27,7 @@ if [ "$count" -ge 2 ]; then
         echo "⏭️ 内容与当前快照一致，跳过本次提交。"
     else
         # 取 HEAD^ 的原始 commit 对象，过滤掉所有 parent 行（使其成为孤儿提交）
-        raw=$(git cat-file commit HEAD^)
+        raw=$(git cat-file commit HEAD)
         kept=$(printf '%s\n' "$raw" | grep -v '^parent ')
         new_raw=$(printf '%s\n' "$kept")
         
