@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "README.md"
+  ],
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "spellcheck": false
+}
