@@ -19,7 +19,7 @@
 
 在活动栏进入 *CMake->PROJECT OUTLINE* 找到可执行文件（项目文件）点击 build，或者在*左下角状态栏点击 build* 即可构建源文件（默认所有目标）
 
-![350x500](assets/Vscode配置Clangd指南/file-20260520195920183.png)
+![350x500](assets/配置Clangd指南/file-20260520195920183.png)
 
 > [!NOTE]
 > 状态栏中的 build 也可用快捷键 `F7`
@@ -85,4 +85,4 @@
 
 如果要从 WinGW 改为 Ninja，记得在 CMake 插件中 Clean 去掉原有的构建文件
 
-![构建](assets/Vscode配置Clangd指南/file-20260520202946779.png)
+![构建](assets/配置Clangd指南/file-20260520202946779.png)
