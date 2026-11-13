@@ -1,0 +1,32 @@
+
+> navigator 对象包含有关访问者浏览器的信息
+
+### navigator 对象
+
+```html
+<div id="example"></div>
+<script>
+txt = "<p>浏览器代号: " + navigator.appCodeName + "</p>";
+txt+= "<p>浏览器名称: " + navigator.appName + "</p>";
+txt+= "<p>浏览器版本: " + navigator.appVersion + "</p>";
+txt+= "<p>启用Cookies: " + navigator.cookieEnabled + "</p>";
+txt+= "<p>硬件平台: " + navigator.platform + "</p>";
+txt+= "<p>用户代理: " + navigator.userAgent + "</p>";
+txt+= "<p>用户代理语言: " + navigator.language + "</p>";
+document.getElementById("example").innerHTML=txt;
+</script>
+```
+
+### 注意事项
+
+来自 navigator 对象的信息具有**误导性**，不应该被用于检测浏览器版本，这是因为：
+- navigator 数据可被浏览器使用者更改
+- 一些浏览器对测试站点会识别错误
+- 浏览器无法报告晚于浏览器发布的新操作系统
+
+> [!NOTE]
+> 由于 navigator 可误导浏览器检测，使用对象检测可用来嗅探不同的浏览器
+> 
+> 由于不同的浏览器支持不同的对象，您可以使用对象来检测浏览器。例如，由于只有 Opera 支持属性 "window.opera"，您可以据此识别出 Opera
+> 
+> 例子：`if (window.opera) {...some action...}`
