@@ -1,7 +1,9 @@
 {
   "cssTheme": "Blue Topaz",
   "enabledCssSnippets": [
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "inline-code-bg",
+    "inline-code"
   ],
   "showRibbon": false,
   "interfaceFontFamily": "仓耳今楷05 W02,仓耳今楷05,仓耳今楷05 W01",
